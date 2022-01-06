@@ -1,0 +1,18 @@
+#include "main.h"
+
+MAINMENU MENU 
+{
+ POPUP "&Arquivo"
+ {
+  MENUITEM "&Abrir...", CM_FILE_OPEN
+  MENUITEM "Salvar &Como...", CM_FILE_SAVEAS
+  MENUITEM SEPARATOR
+  MENUITEM "S&air", CM_FILE_EXIT
+ }
+
+ POPUP "&Ajuda"
+ {
+  MENUITEM "&Sobre", CM_ABOUT
+ }
+}
+
